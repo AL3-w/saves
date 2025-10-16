@@ -22,7 +22,7 @@ int main()
     scanf("pin a0 input  %d", &A0);
     scanf("pin a1 input  %d", &A1);
     // Calculate thermistor temperature in degrees C ( Part b, i,ii,iii & v)
-
+    
     // Calculate thermocouple temperature in degrees C ( Part c, i - iv)
 
     // Output results
