@@ -20,9 +20,9 @@ int main()
 
     // --- User input for pins A0 and A1 (simulated ADC readings) ---
     int nA0, nA1;
-    printf("Enter ADC reading for A0 (0–1023): ");
+    printf("Enter ADC reading for A0 (0 to 1023): ");
     scanf("%d", &nA0);
-    printf("Enter ADC reading for A1 (0–1023): ");
+    printf("Enter ADC reading for A1 (0 to 1023): ");
     scanf("%d", &nA1);
 
     // --- Convert ADC readings to voltages ---
