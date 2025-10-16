@@ -2,7 +2,7 @@
 #include <math.h>
 
 // Forward TC function
-float NISTdegCtoMilliVoltsKtype(float tempDegC);  // returns EMF in millivolts
+float NISTdegCtoMilliVoltsKtype(float tempDegC);  // returns EMF in millivolts idk what they do yet
 // Inverse TC function
 float NISTmilliVoltsToDegCKtype(float tcEMFmV);  // returns temp in degC assuming 0 degC cold jcn
 
@@ -34,12 +34,10 @@ int main()
     printf("A1 Voltage = %.6f V\n", vA1);
 
     // --- Calculate thermistor temperature (Part b, i–v) ---
-    // Placeholder – you’ll replace this with your divider + B-coefficient formula
-    float thermistorTempC = 0.0f;  // <-- to be calculated
+    float thermistorTempC = 0.0f;
 
     // --- Calculate thermocouple temperature (Part c, i–iv) ---
-    // Placeholder – you’ll use NIST functions here
-    float thermocoupleTempC = 0.0f; // <-- to be calculated
+    float thermocoupleTempC = 0.0f; 
 
     // --- Output results ---
     printf("\nResults:\n");
